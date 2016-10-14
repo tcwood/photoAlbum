@@ -20,23 +20,32 @@
 //     image: './images/tia.jpg',
 //   }
 // ];
-class ImageList extends React.Component {
-  constructor() {
-    super();
-  }
-
-  render() {
-    return (
-      <h1>HelloWorld</h1>
-    )
-  };
-}
 
 
-ReactDOM.render(
-  <ImageList />,
-   document.getElementById('app')
+// class ImageList extends React.Component {
+//   constructor() {
+//     super();
+//   }
+
+//   render() {
+//     console.log('in index.js');
+//     return (
+//       <h1>HelloWorld</h1>
+//     )
+//   };
+// }
+
+
+var App = () => (
+  <div>Some cliche salutation</div>
 );
+
+ReactDOM.render(<ImageList />, document.getElementById("app"));
+
+// ReactDOM.render(
+//   <App />,
+//    document.getElementById('app')
+// );
 
 // ReactDOM.render(
 //   <FishTable fishes={fishData}/>,
