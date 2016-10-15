@@ -12,15 +12,14 @@ class App extends React.Component {
     this.setState({
       currentImage: image
     });
-    // ReactDOM.render(<ImageListEntry />, document.getElementById("image"));
-    //do something in here... set state?
   }
 
   render() {
     return (
       <div>
         <TitleList images = {this.props.images} click={this.onTitleClick.bind(this)} />
-        <ImageListEntry image = {this.state.currentImage} />
+        <ImageInfo imageCount = {this.props.images.length} image = {this.state.currentImage} />
+        <ImageView image = {this.state.currentImage} />
       </div>
     );
   }

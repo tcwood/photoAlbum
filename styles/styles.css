@@ -1,5 +1,17 @@
 .image {
-    height: 500px;
+  height: 500px;
+  float: left;
+  margin-left: 100px;
+}
+
+.table-list {
+  position: fixed;
+}
+
+.image-info {
+  position:relative;
+  margin-top: 300px;
+  float:left;
 }
 
 table, th, td {
