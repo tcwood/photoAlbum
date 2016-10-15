@@ -1,7 +1,9 @@
 var TitleList = (props) => (
   <table>
     <tbody>
-      { props.images.map( image=>( <TitleListEntry name={image.name} />))}
+      { props.images.map( image=>( 
+        <TitleListEntry image={image} click={props.click}/>
+        ))}
     </tbody>
   </table>
 );

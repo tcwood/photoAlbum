@@ -1,11 +1,10 @@
-var ImageListEntry = (props) => (
-  <tr>
-    <td className="image-name">{props.image.name}</td>
-    <td>
-      <img className='image' src={props.image.path} />
-    </td>
-  </tr>
-)
+var ImageListEntry = (props) => {
+  console.log('props form image list entry', props);
+
+ return (
+    <img className='image' src={props.image.path} />
+  )
+}
 
 
 // In the ES6 spec, files are "modules" and do not share a top-level scope
