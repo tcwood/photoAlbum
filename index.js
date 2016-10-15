@@ -21,4 +21,6 @@ var imageData = [
   }
 ];
 
-ReactDOM.render(<ImageList images={imageData} />, document.getElementById("app"));
+// ReactDOM.render(<ImageList images={imageData} />, document.getElementById("image"));
+ReactDOM.render(<App images={imageData}/>, document.getElementById("app"));
+
