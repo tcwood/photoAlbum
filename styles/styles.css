@@ -1,18 +1,15 @@
+button {
+  margin-top: 50px;
+}
+
 .image {
   height: 500px;
-  float: left;
-  margin-left: 100px;
 }
 
 .table-list {
-  position: fixed;
+  margin-bottom: 50px;
 }
 
-.image-info {
-  position:relative;
-  margin-top: 300px;
-  float:left;
-}
 
 table, th, td {
   border: 1px solid black;

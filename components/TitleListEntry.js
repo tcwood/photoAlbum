@@ -1,7 +1,6 @@
 var TitleListEntry = (props) => {
 
   var showThisPic = function() {
-    console.log(props.image.path);
     props.click(props.image);
   };
 

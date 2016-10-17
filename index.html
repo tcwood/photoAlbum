@@ -1,23 +1,34 @@
 <!DOCTYPE html>
+<html lang='en'>
 <head>
   <title>Photo Album</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
   <link rel="stylesheet" href="styles/styles.css">
   
 </head>
 
 <body>
-  <h1> Photo Album </h1>
-  <div id="app">
-    <div id='titles'></div>
-    <div id='image'></div>
+
+  <div class ="container">
+    <div class ="row">
+      <h1 class="col-md-4 col-md-offset-4"> Photo Album </h1>
+    </div>
   </div>
 
+
+  <div id="app" class="container">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/babel" src="data/data.js"></script>
   <script type="text/babel" src="components/App.js"></script>
   <script type="text/babel" src="components/ImageView.js"></script>
   <script type="text/babel" src="components/TitleList.js"></script>
   <script type="text/babel" src="components/TitleListEntry.js"></script>
   <script type="text/babel" src="components/ImageInfo.js"></script>
+  <script type="text/babel" src="components/Rating.js"></script>
   <script type="text/babel" src="index.js"></script>
   <script src="bower_components/react/react.js"></script>
   <script src="bower_components/react/react-dom.js"></script>
